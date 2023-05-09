@@ -1,0 +1,89 @@
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-style: bold;
+}
+
+.banner {
+  background-position: center;
+  background-size: cover;
+  padding: 200px 200px;
+}
+
+.banner h1 {
+  color:white;
+}
+
+.banner p {
+  color: white;
+  opacity: .7;
+  font-size: 20px;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1EDD88;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+}
+
+.howitworks h2 {
+  width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.howitworks {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.carts {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin: 20px 0px;
+
+}
+
+.cart {
+  width: 200px;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230,230,230);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+}
+
+.cart img {
+  width: 150px;
+}
+
+.cart p {
+  opacity: .5;
+}
+
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2b2c2c;
+}
+
+.footer a {
+  font-size: 30px;
+  color: #1EDD88;
+}
+
+.footer p {
+  color: #6B6C6C;
+}
+
+.footer .fas {
+  color: #BF0F12;
+}
